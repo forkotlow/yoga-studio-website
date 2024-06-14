@@ -4,9 +4,8 @@
   "description": "website for lotus yoga studio ",
   "main": "index.js",
   "type": "module",
-
   "scripts": {
-    "dev": "node run index.js"
+    "dev": "nodemon scripts/index.js"
   },
   "keywords": [
     "lotus",
@@ -18,5 +17,8 @@
     "css"
   ],
   "author": "chandan chavan",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
 }
